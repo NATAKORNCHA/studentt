@@ -4,5 +4,8 @@ OOP Lab60-01
 #include <stdio.h>
 main()
 {
-   printf("hello,Natakorn Charoentham\n");
+   char yourname[100];
+   printf("What is your name?\t");
+   scanf("%s",yourname);
+   printf("hello,%s\n",yourname);
 }
